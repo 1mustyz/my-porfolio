@@ -32,9 +32,10 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  text-decoration: none !important;
+  /* text-decoration: none !important;
   list-style: none !important;
-  outline: none !important; }
+  outline: none !important;  */
+}
 
 h1,
 h2,
@@ -57,7 +58,7 @@ body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   line-height: 1.65;
-  color: #e1e1e1;
+  color: #3d3939;
   background-color: #6B6C6D; }
 
 h1,
@@ -67,7 +68,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
-  color: #fff; }
+  color: #6B6C6D; }
 
 span {
   display: inline-block; }
@@ -357,7 +358,7 @@ a:focus {
 .page-heading {
   margin-bottom: 50px;
   margin-top: 50px;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+  border-bottom: 1px dashed rgba(26, 29, 199, 0.2);
   padding-bottom: 10px; }
   .page-heading .icon {
     float: right;
@@ -387,7 +388,7 @@ a:focus {
     position: relative;
     text-transform: uppercase;
     padding: 5px 10px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.6); }
+    border-bottom: 2px solid rgba(42, 39, 219, 0.6); }
     .subheading h3:before, .subheading h3:after {
       position: absolute;
       content: "";
@@ -449,7 +450,7 @@ a:focus {
 
 .input__field {
   width: 100%;
-  border: 2px solid #999;
+  border: 2px solid #00A3E1;
   padding: 5px 10px;
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
@@ -457,13 +458,13 @@ a:focus {
   position: relative;
   z-index: 1;
   background-color: transparent;
-  color: #fff; }
+  color: rgb(34, 33, 33); }
   .input__field.cf-error {
     border-color: #ff0000; }
 
 .input__field:focus {
   outline: none;
-  border-color: #fff; }
+  border-color: #066286; }
 
 .input__label {
   font-weight: 500;
@@ -482,7 +483,7 @@ a:focus {
   left: 0; }
 
 .input--filled .input__field {
-  border-color: #fff; }
+  border-color: #00A3E1; }
 
 textarea {
   resize: none;
@@ -541,7 +542,7 @@ blockquote {
   left: 0;
   height: 100vh;
   width: 100vw;
-  background-color: #2C2D2F;
+  background-color: white;
   z-index: 10000; }
   .preloader .loader {
     position: absolute;
@@ -555,7 +556,7 @@ blockquote {
       text-transform: uppercase;
       margin-bottom: 10px;
       font-weight: 700;
-      color: heading-color; }
+      color: rgb(3, 3, 151); }
 
 .loader span {
   width: .6em;
@@ -623,13 +624,13 @@ blockquote {
   height: 100%;
   z-index: 300;
   width: 200px;
-  background-color: #17181B;
+  background-color: white;
   overflow: auto;
   left: 0;
   overflow-x: hidden;
   text-align: center;
   z-index: 999;
-  border-right: 1px solid #202226; }
+  border-right: 1px solid white; }
   .header-main .image-container {
     position: relative; }
     .header-main .image-container img {
@@ -661,21 +662,21 @@ blockquote {
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-bottom: 1px solid #202226;
+  border-bottom: 1px solid rgb(172, 165, 165);
   text-align: left; }
   .header-main nav.nav-menu ul li a {
     display: block;
     line-height: 45px;
     padding-left: 70px;
     position: relative;
-    color: #777; }
+    color: rgb(105, 105, 226); }
     .header-main nav.nav-menu ul li a span.nav-menu-icon {
       position: absolute;
       left: 40px;
       display: inline-block;
       font-size: 20px; }
     .header-main nav.nav-menu ul li a.active {
-      color: #fff; }
+      color: rgb(4, 4, 116); }
 
 header .header-mobile {
   position: fixed;
@@ -683,7 +684,7 @@ header .header-mobile {
   left: 0;
   height: 50px;
   width: 100%;
-  background-color: #17181B;
+  background-color: rgb(18, 29, 126);
   z-index: 10;
   display: none;
   -webkit-transition: all .3s ease-in-out;
@@ -707,7 +708,7 @@ header .header-mobile {
     cursor: pointer;
     width: 50px;
     text-align: center;
-    border-left: 1px solid #3b3c43;
+    border-left: 1px solid white;
     float: right; }
     header .header-mobile .header-toggle i {
       color: #fff; }
@@ -723,7 +724,7 @@ header .header-mobile {
       font-size: 18px;
       margin-right: 10px; }
       .header-main .nav-footer .social li a {
-        color: #777;
+        color: rgb(105, 105, 226);
         -webkit-transition: color .2s ease;
         -o-transition: color .2s ease;
         transition: color .2s ease; }
@@ -840,7 +841,7 @@ header .header-mobile {
 
 /*============ 5. About Section ============*/
 .about-section {
-  background-color: #2C2D2F; }
+  background-color: white; color: #2C2D2F }
   .about-section .about h3 {
     font-size: 22px;
     font-weight: 700; }
@@ -854,12 +855,12 @@ header .header-mobile {
       font-size: 16px;
       font-weight: 700;
       letter-spacing: .5px;
-      border-bottom: 2px solid #fff;
+      border-bottom: 2px solid rgb(29, 28, 28);
       position: relative;
       display: inline-block;
       margin-right: 15px;
       padding-bottom: 1px;
-      color: #fff; }
+      color: rgb(29, 28, 28); }
       .about-section .about .about-info ul li span.title:after {
         content: ':';
         position: absolute;
@@ -868,12 +869,13 @@ header .header-mobile {
 .about-section .services .service-item {
   text-align: center;
   margin-bottom: 40px;
-  position: relative; }
+  position: relative; 
+}
   .about-section .services .service-item .icon {
     font-size: 50px;
     margin-bottom: 10px;
     line-height: 1em;
-    color: #fff; }
+    color: #eeee; }
   .about-section .services .service-item h4 {
     font-size: 18px;
     font-weight: 600; }
@@ -882,7 +884,15 @@ header .header-mobile {
     line-height: 22px;
     margin-bottom: 0;
     margin-top: 15px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px; 
+    text-align: justify;
+  }
+  .about-section .services .service-item ul {
+    text-align: left;
+    list-style-type: square;
+    margin-left: 18px;
+  }
+  
 
 .clients .client-logo img {
   width: 100px;
@@ -958,7 +968,7 @@ header .header-mobile {
 
 /*============ 6. Resume Section ============*/
 .resume-section {
-  background-color: #2C2D2F; }
+  background-color: white; }
 
 .resume-section ul.education, .resume-section ul.experience {
   margin: 20px 0 50px;
@@ -1026,7 +1036,7 @@ header .header-mobile {
     -webkit-transform: translateX(-120%);
     -ms-transform: translateX(-120%);
     transform: translateX(-120%);
-    color: #fff; }
+    color: rgb(29, 27, 27); }
     .resume-section .education span.year span.to, .resume-section .experience span.year span.to {
       top: -18px; }
     .resume-section .education span.year span.from, .resume-section .experience span.year span.from {
@@ -1039,7 +1049,7 @@ header .header-mobile {
 
 /*============ 7. Portfolio Section ============*/
 .portfolio-section {
-  background-color: #2C2D2F; }
+  background-color: white; }
   .portfolio-section .portfolio-filter {
     margin-bottom: 30px; }
     .portfolio-section .portfolio-filter ul {
@@ -1047,7 +1057,7 @@ header .header-mobile {
       margin: 0 auto;
       -webkit-border-radius: 27px;
       border-radius: 27px;
-      border: 1px dashed rgba(255, 255, 255, 0.2);
+      border: 1px dashed rgba(83, 38, 189, 0.2);
       line-height: 0; }
       .portfolio-section .portfolio-filter ul li {
         display: inline-block;
@@ -1055,7 +1065,7 @@ header .header-mobile {
         cursor: pointer;
         font-family: "Roboto", sans-serif;
         position: relative;
-        color: #e1e1e1;
+        color: #6b6767;
         text-transform: uppercase;
         padding: 20px 20px;
         overflow: hidden;
@@ -1210,7 +1220,7 @@ header .header-mobile {
 
 /*============ 9. Contact Section ============*/
 .contact-section {
-  background-color: #2C2D2F; }
+  background-color: white; }
   .contact-section #map {
     width: 100%;
     height: 200px; }
