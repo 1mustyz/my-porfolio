@@ -125,7 +125,8 @@ const Portfolio = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-4">
-              Software Engineer | AI/ML Researcher | Fullstack Developer
+              Software Engineer | AI/ML Researcher & Developer | Data Scientist
+              | Fullstack Developer
             </p>
             <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
               Passionate about building intelligent systems and solving
